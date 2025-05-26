@@ -122,7 +122,7 @@ R, Nombre del Libro, ISBN, Ejemplar, Fecha
 
 ## Características Técnicas
 
-- Implementado en **C **.
+- Implementado en **C**.
 - Uso de **procesos e hilos POSIX**, **pipes con nombre (FIFOs)** y sincronización tipo **Productor-Consumidor**.
 - Manejo de múltiples procesos solicitantes simultáneamente.
 - Soporte para entrada manual (menú interactivo) o automática (archivo).
