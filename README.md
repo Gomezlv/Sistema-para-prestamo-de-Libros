@@ -57,7 +57,7 @@ Esto generará los ejecutables:
 - `-p pipeRP`: Nombre del pipe nominal para comunicación.
 - `-f bd.txt`: Archivo con la base de datos inicial.
 - `-v`: Modo verbose (opcional), muestra las solicitudes recibidas en consola.
-- `-s salida.txt`: Archivo de salida con el estado final de la BD (opcional).
+- `-s salida.txt`: Archivo de salida con las operaciones realizadas (opcional).
 
 ### Proceso Solicitante (PS)
 
