@@ -1,5 +1,11 @@
 # Sistema para el Préstamo de Libros
 
+**Proyecto Final – Sistemas Operativos (SIU4085)**  
+**Pontificia Universidad Javeriana – Facultad de Ingeniería**  
+**Primer semestre de 2025**
+
+---
+
 ## Descripción General
 
 Este proyecto implementa un sistema de préstamo de libros utilizando conceptos fundamentales de **procesos**, **hilos** y **comunicación entre procesos (IPC)** a través de **pipes**, siguiendo el enunciado propuesto para la asignatura *Sistemas Operativos SIU4085*.
@@ -33,8 +39,8 @@ make
 
 Esto generará los ejecutables:
 
-- `solicitante`
-- `receptor`
+- `Solicitante`
+- `Receptor`
 
 ---
 
@@ -43,7 +49,7 @@ Esto generará los ejecutables:
 ### Proceso Receptor (RP)
 
 ```bash
-./receptor -p pipeRP -f bd.txt [-v] [-s salida.txt]
+./Receptor -p pipeRP -f bd.txt [-v] [-s salida.txt]
 ```
 
 **Parámetros:**
@@ -56,7 +62,7 @@ Esto generará los ejecutables:
 ### Proceso Solicitante (PS)
 
 ```bash
-./solicitante [-i entrada.txt] -p pipeRP
+./Solicitante [-i entrada.txt] -p pipeRP
 ```
 
 **Parámetros:**
@@ -66,7 +72,7 @@ Esto generará los ejecutables:
 
 ---
 
-## Formato del Archivo de Entrada (`entrada.txt`)
+## Ejemplo Formato del Archivo de Entrada (`entrada.txt`)
 
 ```
 P, Cálculo Diferencial, 120
@@ -84,7 +90,7 @@ Donde:
 
 ---
 
-## Formato de la Base de Datos (`bd.txt`)
+## Ejemplo Formato de la Base de Datos (`bd.txt`)
 
 ```
 Cálculo Diferencial, 120, 2
@@ -97,7 +103,7 @@ Hamlet, 234, 1
 
 Cada libro está representado por:
 - Título, ISBN, cantidad de ejemplares
-- Por cada ejemplar: número, estado (`P` o `D`) y fecha
+- Por cada ejemplar: número, estado (`P` Prestado o `D` Disponible) y fecha
 
 ---
 
@@ -116,7 +122,7 @@ R, Nombre del Libro, ISBN, Ejemplar, Fecha
 
 ## Características Técnicas
 
-- Implementado en **C ANSI**.
+- Implementado en **C **.
 - Uso de **procesos e hilos POSIX**, **pipes con nombre (FIFOs)** y sincronización tipo **Productor-Consumidor**.
 - Manejo de múltiples procesos solicitantes simultáneamente.
 - Soporte para entrada manual (menú interactivo) o automática (archivo).
@@ -126,9 +132,10 @@ R, Nombre del Libro, ISBN, Ejemplar, Fecha
 
 ## Autores
 
-- Nombre 1 – email1@dominio.com
-- Nombre 2 – email2@dominio.com
-- Nombre 3 – email3@dominio.com
+- Viviana Gómez León – gomezlv@javeriana.edu.co
+- Roberth Santiago Méndez Rivera – mendezr.roberth@javeriana.edu.co
+- Luz Adriana Salazar Varón – luza_salazar@javeriana.edu.co
+- Guden Sebastián Silva Rojas - silva.gsebastian@javeriana.edu.co
 
 ---
 
