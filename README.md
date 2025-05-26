@@ -141,4 +141,4 @@ R, Nombre del Libro, ISBN, Ejemplar, Fecha
 
 ## Licencia
 
-Proyecto académico desarrollado para el curso *Sistemas Operativos SIU4085* (Marzo - Mayo 2025).
+Proyecto académico desarrollado para el curso *Sistemas Operativos SIU4085* (Mayo 2025).
