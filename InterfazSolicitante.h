@@ -16,6 +16,7 @@
 #include <sys/stat.h>
 #include <pthread.h>
 #include <errno.h>
+#include <getopt.h>
 
 #define MAX_LINE 256
 

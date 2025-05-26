@@ -19,6 +19,7 @@
 #include <stdbool.h>
 #include <sys/stat.h>
 #include <time.h>
+#include <getopt.h>
 #define MAX_LINE 256
 #define BUFFER_SIZE 10
 /*
