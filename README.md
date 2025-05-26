@@ -19,8 +19,14 @@ El sistema está dividido en dos componentes principales:
 
 ## Estructura del Proyecto
 
-- `solicitante.c`: Código fuente del proceso solicitante.
-- `receptor.c`: Código fuente del proceso receptor.
+- `Solicitante.c`: Código main del proceso solicitante.
+- `InterfazSolicitante.c`: Interfaz con la implementación de todas las funciones que utiliza `Solicitante.c`.
+- `InterfazSolicitante.h`: Archivo con las firmas de la funciones de `InterfazSolicitante.c`.
+- `Receptor.c`: Código main del proceso receptor.
+- `InterfazReceptor.c`: Interfaz con la implementación de todas las funciones que utiliza `Receptor.c`.
+- `InterfazReceptor.h`: Archivo con las firmas de la funciones de `InterfazReceptor.c`.
+- `Receptor.c`: Código fuente del proceso receptor.
+
 - `bd.txt`: Archivo que representa la base de datos de libros de la biblioteca.
 - `makefile`: Archivo para compilar los ejecutables del sistema.
 - `entrada.txt`: Archivo de entrada para el PS con solicitudes predefinidas.
