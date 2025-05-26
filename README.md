@@ -110,12 +110,10 @@ Cada libro está representado por:
 ## Comandos del Receptor (por consola)
 
 - `s`: Finaliza el proceso RP y sus hilos.
-- `r`: Genera reporte en pantalla con operaciones realizadas en formato:
+- `r`: Genera reporte en pantalla con operaciones realizadas en el siguiente formato:
 
 ```
-P, Nombre del Libro, ISBN, Ejemplar, Fecha
-D, Nombre del Libro, ISBN, Ejemplar, Fecha
-R, Nombre del Libro, ISBN, Ejemplar, Fecha
+Operación, Nombre del Libro, ISBN, Ejemplar, Fecha
 ```
 
 ---
