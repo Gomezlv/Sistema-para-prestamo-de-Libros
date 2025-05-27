@@ -312,6 +312,7 @@ void* auxiliar2_(void* arg) {
                     }
                     
                 }
+                pthread_mutex_unlock(&lock);
             }
         }
     }
