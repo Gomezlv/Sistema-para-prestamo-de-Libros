@@ -121,7 +121,11 @@ Cada libro está representado por:
 ```
 Operación, Nombre del Libro, ISBN, Ejemplar, Fecha
 ```
+---
+## Archivos Adicionales
 
+- Proyecto Sistemas Operativos - Gómez, Méndez, Salazar y Silva.pdf: Documento completo del análisis, diseño, implementación y pruebas del sistema.
+- SustentacionProyectoFinalOperativos - Gómez, Méndez, Salazar, Silva.pdf: Diapositivas utilizadas en la sustentación del proyecto.
 ---
 
 ## Características Técnicas
